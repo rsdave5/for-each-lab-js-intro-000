@@ -1,8 +1,15 @@
 function iterativeLog(array) {
-  array.forEach( (element, index, array) => {
+  array.forEach( function(element, index, array) {
     console.log(`${index}: ${element}`);
-  });
-};
+  })
+}
+
+
+// function iterativeLog(array) {
+//   array.forEach( (element, index, array) => {
+//     console.log(`${index}: ${element}`);
+//   });
+// };
 
 function iterate(callback) {
   let pets = ['dogs', 'cats', 'hamsters'];
